@@ -1,0 +1,102 @@
+/* Cart.css */
+
+/* Main container spacing */
+.container {
+  padding: 1rem 2rem;
+  font-family: 'League Spartan', sans-serif;
+  color: #333;
+}
+
+/* Cart Summary Box */
+.cart-summary {
+  background-color: #f8f9fa; /* light bg */
+  border: 1px solid #088178;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cart-summary h4 {
+  color: #088178;
+  font-weight: 700;
+}
+
+.cart-summary span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Empty cart styling */
+.text-center h3 {
+  color: #088178;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #088178;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #066a60;
+  border: none;
+}
+
+.row.text-center.fw-bold.border-bottom {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color:black;
+}
+
+.row.align-items-center {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.row.align-items-center img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.btn-outline-dark {
+  border-color: #088178;
+  color: #088178;
+}
+
+.btn-outline-dark:hover {
+  background-color: #088178;
+  color: #fff;
+  border-color: #088178;
+}
+
+/* Remove button */
+.btn-danger {
+  background-color: #e63946;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c62839;
+}
+
+/* Total price column */
+.row.align-items-center div:last-child {
+  font-weight: 700;
+  color: #088178;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .row.text-center.fw-bold.border-bottom,
+  .row.align-items-center {
+    font-size: 0.8rem;
+  }
+
+  .col-lg-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 0.5rem;
+  }
+}
